@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/github/v/release/newrelic/nr1-workload-geoops?include_prereleases&sort=semver" title="GitHub release (latest SemVer including pre-releases)">
-<img src="https://github.com/newrelic/nr1-workload-geoops/workflows/CI/badge.svg" title="CI">
-<img src="https://img.shields.io/snyk/vulnerabilities/github/newrelic/nr1-workload-geoops" title="Snyk">
+<img src="https://img.shields.io/github/v/release/newrelic/Assistant?include_prereleases&sort=semver" title="GitHub release (latest SemVer including pre-releases)">
+<img src="https://github.com/newrelic/Assistant/workflows/CI/badge.svg" title="CI">
+<img src="https://img.shields.io/snyk/vulnerabilities/github/newrelic/Assistant" title="Snyk">
 </p>
 
 ------
 
-## Usage
+# Assistant
 
 Workloads GeoOps provides a geographic exploration of [Workload](https://docs.newrelic.com/docs/new-relic-one/use-new-relic-one/core-concepts/new-relic-one-workloads-isolate-resolve-incidents-faster) data (collections of Entities) tied to geographic data, including location metadata. Find additional information in the [docs](docs/documentation.md) directory.
 
@@ -50,8 +50,8 @@ npm -v
 Next, clone this repository and run the following scripts:
 
 ```bash
-git clone https://github.com/newrelic/nr1-workload-geoops.git
-cd nr1-workload-geoops
+git clone https://github.com/newrelic/Assistant.git
+cd Assistant
 nr1 nerdpack:uuid -gf
 npm install
 npm start
@@ -88,7 +88,7 @@ Issues and enhancement requests can be submitted in the [Issues tab of this repo
 
 ## Security
 
-As noted in our [security policy](https://github.com/newrelic/nr1-workload-geoops/security/policy), New Relic is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
+As noted in our [security policy](https://github.com/newrelic/Assistant/security/policy), New Relic is committed to the privacy and security of our customers and their data. We believe that providing coordinated disclosure by security researchers and engaging with the security community are important means to achieve our security goals.
 
 If you believe you have found a security vulnerability in this project or any of New Relic's products or websites, we welcome and greatly appreciate you reporting it to New Relic through [HackerOne](https://hackerone.com/newrelic).
 
